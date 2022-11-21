@@ -81,7 +81,7 @@ export default {
 <style scoped>
 .slider-1 {
 
-    /* position: absolute; */
+    position: relative;
     width: 100%;
     bottom: auto;
     display: flex;
