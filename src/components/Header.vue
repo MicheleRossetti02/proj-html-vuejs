@@ -60,7 +60,7 @@ export default {
 
 <style scoped lang="scss">
 .container {
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 
   .logo {

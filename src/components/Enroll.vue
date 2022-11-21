@@ -4,6 +4,7 @@ export default {
 }
 </script>
 <template>
+    <!-- enroll -->
     <div class="enroll p-4">
         <div class="container">
             <div class="row ">
@@ -26,7 +27,7 @@ export default {
     background-image: url(../assets/img/pattern.png);
 
     .row {
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     p {
@@ -42,6 +43,8 @@ export default {
         border: 2px solid white;
         border-radius: 0;
         transition: none;
+
+
 
     }
 
