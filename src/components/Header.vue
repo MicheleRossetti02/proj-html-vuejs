@@ -15,6 +15,7 @@ export default {
 
         <!-- link header -->
         <!-- possibile automazziare con js -->
+
         <div class="icon d-flex px-3 ">
           <!-- icon -->
           <img src="../assets/img/image-header/home.png" alt="">
@@ -83,6 +84,8 @@ export default {
 
   .icon:hover {
     background-color: orange;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 }
 </style>
