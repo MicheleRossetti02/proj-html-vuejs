@@ -102,6 +102,7 @@ export const store = reactive({
     ],
     listClass: [
         {
+
             text: 'Comprehensive reporting on individual achivement'
         },
 
@@ -123,6 +124,30 @@ export const store = reactive({
 
         {
             text: 'Positive learning environment for your child'
+        },
+
+    ],
+    EducationCard: [
+        {
+            img: '',
+            title: 'Learing&Fun',
+            text: 'Praesent modea est gravida node vehicula luctus',
+        },
+        {
+            img: '',
+            title: 'Healthy Meals',
+            text: 'Terminal interdum a eleifend maecenas est morbi.',
+        },
+        {
+            img: '',
+            title: 'Frindly Place',
+            text: 'Terminal interdum a eleifend maecenas est morbi',
+        },
+        {
+            img: '',
+            title: 'Children Safety',
+            text: 'Praesent modea est gravida node vehicula luctus',
+
         },
 
     ]

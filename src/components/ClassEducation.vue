@@ -14,6 +14,7 @@ export default {
 
     <!-- class education -->
     <div class="row">
+        <!-- left part -->
         <div class="col-6">
             <div class="title text  ">
                 <h3>
@@ -38,12 +39,25 @@ export default {
             </div>
 
         </div>
-        <div class="col-6">
+        <!-- right part -->
+        <div class="our-class-right col-6 d-flex">
+            <div class="col-5 text-center" v-for="card in store.EducationCard">
+                <div class="image">
+
+                </div>
+                <div class="info-text">
+                    <h3>{{ card.title }}</h3>
+                    <p>{{ card.text }}</p>
+                </div>
+            </div>
 
         </div>
     </div>
 </template>
 
-<style>
-
+<style scoped>
+.our-class-right {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 </style>
