@@ -63,6 +63,10 @@ export default {
   justify-content: space-between;
   align-items: center;
 
+  // .container {
+  //   position: relative;
+  // }
+
   .logo {
 
     img {
@@ -73,9 +77,12 @@ export default {
   }
 
   .icon {
+    // position: absolute;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding-top: 21px;
+    padding-bottom: 21px;
 
     img {
       width: 30px;
@@ -84,8 +91,8 @@ export default {
 
   .icon:hover {
     background-color: orange;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    cursor: pointer;
+
   }
 }
 </style>

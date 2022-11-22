@@ -1,5 +1,5 @@
 <script>
-import store from '../store.js'
+import { store } from '../store.js'
 import SlidesGenerator from './SlidesGenerator.vue';
 export default {
     name: "Jumbotron",
@@ -50,7 +50,7 @@ export default {
             <div class="item d-flex">
 
                 <img :src="`${store.firstSlider[store.activeSlide].img}`" alt="">
-                <img :src="`../assets/img/jumbotron1/`" alt="">
+
                 <div class="text">
                     <p>
                         {{ store.firstSlider[store.activeSlide].text }}

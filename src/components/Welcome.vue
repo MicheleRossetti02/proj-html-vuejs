@@ -1,9 +1,11 @@
 <script>
+import Overview from './Overview.vue';
 import Presentation from './Presentation.vue';
 export default {
     name: 'Welcome',
     components: {
         Presentation,
+        Overview
     }
 
 }
@@ -16,7 +18,9 @@ export default {
 
     </Presentation>
 
+    <Overview>
 
+    </Overview>
 </template>
 <style>
 

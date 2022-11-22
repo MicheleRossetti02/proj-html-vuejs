@@ -13,7 +13,7 @@ export default {
                 </div>
                 <div class="col-auto d-flex align-items-center">
                     <div class="btn">
-                        <button type="button" class="btn text-white">LEARN MORE ></button>
+                        <button type="button" class="btn ">LEARN MORE ></button>
 
                     </div>
 
@@ -43,13 +43,18 @@ export default {
         border: 2px solid white;
         border-radius: 0;
         transition: none;
-
+        color: white;
 
 
     }
 
     button:hover {
         border: 0;
+        background-color: white;
+        border: 2px solid white;
+        font-weight: 400;
+
+        color: #554e9e;
     }
 
 

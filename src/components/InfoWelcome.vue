@@ -1,5 +1,5 @@
 <script>
-import store from '../store.js'
+import { store } from '../store.js'
 
 export default {
     name: 'InfoWelcome',
@@ -26,9 +26,9 @@ export default {
         <div class="col-3  mt-4 info" v-for="infoWelcome in store.infoWelcome ">
             <!-- card for Welcome Fable-->
             <div class="card-info  d-flex">
-                <div :class="(infoWelcome.welcomeIndex === 0 ? 'orange my-2' : 'viola my-2')">
+                <div :class="(infoWelcome.welcome === 0 ? 'orange my-2' : 'viola my-2')">
                     <!-- v-bind:class="infoWelcome.welcomeIndex % 2 === 0 " -->
-                    <img src="" alt="">
+                    <img :src="`${infoWelcome.img}`" alt="">
                 </div>
                 <div class="text-center pt-2">
                     <h5>{{ infoWelcome.title }}</h5>
