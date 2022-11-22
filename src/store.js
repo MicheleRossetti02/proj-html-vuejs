@@ -251,6 +251,24 @@ export const store = reactive({
             text: 'Science and art classes'
         },
 
+    ],
+    footerSocial: [
+        {
+            img: './src/assets/img/footer/end/behance.png'
+        },
+        {
+            img: './src/assets/img/footer/end/dribbble.png'
+        },
+        {
+            img: './src/assets/img/footer/end/envato.png'
+        },
+        {
+            img: './src/assets/img/footer/end/facebook.png'
+        },
+        {
+            img: './src/assets/img/footer/end/twitter.png'
+        },
+
     ]
 })
 // selectImage(index) {

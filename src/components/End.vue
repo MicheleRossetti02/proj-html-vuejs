@@ -18,8 +18,8 @@ export default {
         <div class="row">
             <div class="col ">
                 <div class="social mb-4  d-flex">
-                    <div class="icon mx-1" v-for="icon in 5">
-                        <img src="" alt="">
+                    <div class="icon mx-1" v-for="icon in store.footerSocial">
+                        <img :src="`${icon.img}`" alt="">
                     </div>
                 </div>
                 <div class="copy">
@@ -41,8 +41,8 @@ export default {
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    // width: 30px;
+    // height: 30px;
     background-color: #fe6601;
 
 }
