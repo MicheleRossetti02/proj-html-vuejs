@@ -1,12 +1,14 @@
 <script >
 import Header from './components/Header.vue';
 import MainSite from './components/MainSite.vue';
+import FooterSite from './components/FooterSite.vue';
 
 export default {
 
   components: {
     Header,
-    MainSite
+    MainSite,
+    FooterSite
   }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
 
   <Header> </Header>
   <MainSite />
+  <FooterSite />
 
 </template>
 

@@ -173,7 +173,85 @@ export const store = reactive({
         },
 
     ],
+    newCard: [
+        {
+            date: 'October 03, 2014',
+            title: 'Drawing and Painting Lessons',
+            text: 'Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum ',
+        },
+        {
+            date: 'October 03, 2014',
+            title: 'Fall Parents Meeting Day',
+            text: 'Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum ',
 
+        },
+        {
+            date: 'September 20, 2014',
+            title: 'Birtday in Kindergarten',
+            text: 'Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum ',
+
+        },
+
+    ],
+    contactCard: [
+        {
+            title: 'Postal Adress',
+            firstRow: 'Fable Care Center',
+            secondRow: '85 Fentiman Ave',
+            thirdRow: 'Ottawa, ON K1S 0T7',
+            image: '',
+        },
+        {
+            title: 'Phone & E-mail',
+            firstRow: 'Phone: 1-800-64-38',
+            secondRow: 'Fax: 1-800-64-39',
+            thirdRow: 0,
+            link: 'office@fable.com',
+            image: '',
+        },
+        {
+            title: 'Business Hours',
+            firstRow: 'Monday - Friday',
+            secondRow: '8.00 am - 5.00 pm',
+            thirdRow: 'Weeknd Closed',
+            image: '',
+        },
+        {
+            title: 'Session',
+            firstRow: 'Mornings, 8 am - 12 noon',
+            secondRow: 'Afternoons, 1 pm - 5 pm',
+            thirdRow: 'Full Day, 8 am - 5 am ',
+            image: '',
+        },
+
+    ],
+    FooterList: [
+        {
+
+            text: 'Friendly and welcoming place'
+        },
+        {
+
+            text: 'Science and art classes'
+        },
+        {
+
+            text: 'Positive learning environment'
+        },
+        {
+
+            text: 'Educational fiels trips'
+        },
+        {
+
+            text: 'Writing and reading classes'
+        },
+        {
+
+            text: 'Science and art classes'
+        },
+
+    ]
 })
 // selectImage(index) {
 //     console.log('Ho cliccato su un thumb', index);
