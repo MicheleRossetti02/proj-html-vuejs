@@ -128,22 +128,22 @@ export const store = reactive({
     ],
     EducationCard: [
         {
-            img: '',
+            img: './src/assets/img/our-class/learning/toy.png',
             title: 'Learing&Fun',
             text: 'Praesent modea est gravida node vehicula luctus',
         },
         {
-            img: '',
+            img: './src/assets/img/our-class/learning/meal.png',
             title: 'Healthy Meals',
             text: 'Terminal interdum a eleifend maecenas est morbi.',
         },
         {
-            img: '',
+            img: './src/assets/img/our-class/learning/school.png',
             title: 'Frindly Place',
             text: 'Terminal interdum a eleifend maecenas est morbi',
         },
         {
-            img: '',
+            img: './src/assets/img/our-class/learning/shield.png',
             title: 'Children Safety',
             text: 'Praesent modea est gravida node vehicula luctus',
 

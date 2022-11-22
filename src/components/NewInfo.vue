@@ -13,8 +13,10 @@ export default {
 <template>
     <div class="container mt-5">
         <div class="info new text-center">
-            <h3>What's New</h3>
-            <p>Keep up to date with the latest news</p>
+            <h2>What's New</h2>
+            <p> <small class="text-muted ms-2">Keep up to date with the latest news</small></p>
+
+
             <div class="divider">
                 <img src="../assets/img/header_divider.png" alt="">
             </div>
@@ -52,6 +54,11 @@ export default {
 </template>
 
 <style scoped lang="scss">
+h2 {
+    color: #554e9e;
+    font-weight: 200;
+}
+
 button {
     border-radius: 0;
     color: white;

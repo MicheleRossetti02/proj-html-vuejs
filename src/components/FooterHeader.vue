@@ -104,7 +104,13 @@ export default {
 <style scoped lang="scss">
 .pattern {
     background-image: url(../assets/img/pattern/pattern.png);
+
     // height: 500px;
+    .line {
+        width: 75px;
+        height: 2px;
+        border: 1px solid white;
+    }
 
     h3 {
         font-weight: 300;
@@ -113,6 +119,11 @@ export default {
     p {
         font-weight: 230;
         opacity: 60%;
+    }
+
+    p:hover {
+        opacity: 100%;
+        cursor: pointer;
     }
 
     .about-us {

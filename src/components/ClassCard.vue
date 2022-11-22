@@ -35,7 +35,7 @@ export default {
 
         </div>
     </div>
-    <div class="row mb-5 mt-4">
+    <div class="row mb-5 mt-5">
         <!-- da automatizzare con js -->
         <div class="col-6  " v-for="card in store.classCard">
             <div class="card-little-lambs">
@@ -118,7 +118,7 @@ h2 {
 .link {
     position: absolute;
     background-color: #fe6601;
-    width: 130px;
+    width: 22%;
     bottom: 0;
     right: 0;
 
@@ -127,6 +127,20 @@ h2 {
         color: white;
         font-weight: 400;
         // padding: 20px;
+    }
+
+}
+
+.link:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #fe6601;
+
+    a {
+        //     color: #554e9e;
+        font-weight: 500;
+        color: #fe6601;
+
     }
 }
 </style>
