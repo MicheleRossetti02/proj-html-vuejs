@@ -69,6 +69,36 @@ export const store = reactive({
         {
             img: ''
         },
+    ],
+    classCard: [
+        {
+            img: '',
+            title: 'Little Lambs',
+            text: 'Month olds',
+            age: '12-24',
+            size: '9'
+        },
+        {
+            img: '',
+            title: 'Bouncy Bears',
+            text: 'Years old',
+            age: '4-5',
+            size: '12'
+        },
+        {
+            img: '',
+            title: 'Tenderhearts',
+            text: 'Years old',
+            age: '3-4',
+            size: '15'
+        },
+        {
+            img: '',
+            title: 'Shining Stars',
+            text: 'Years old',
+            age: '4-5',
+            size: '20'
+        },
     ]
 })
 // selectImage(index) {
