@@ -71,28 +71,28 @@ export const store = reactive({
     ],
     classCard: [
         {
-            img: '',
+            img: './src/assets/img/our-class/card/class_01-690x506.jpg',
             title: 'Little Lambs',
             text: 'Month olds',
             age: '12-24',
             size: '9'
         },
         {
-            img: '',
+            img: './src/assets/img/our-class/card/class_02-690x506.jpg',
             title: 'Bouncy Bears',
             text: 'Years old',
             age: '4-5',
             size: '12'
         },
         {
-            img: '',
+            img: './src/assets/img/our-class/card/class_03-690x506.jpg',
             title: 'Tenderhearts',
             text: 'Years old',
             age: '3-4',
             size: '15'
         },
         {
-            img: '',
+            img: './src/assets/img/our-class/card/class_04-690x506.jpg',
             title: 'Shining Stars',
             text: 'Years old',
             age: '4-5',
@@ -179,20 +179,27 @@ export const store = reactive({
             date: 'October 03, 2014',
             title: 'Drawing and Painting Lessons',
             text: 'Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum ',
+            num: '42',
+            name: 'Anna Brown',
+            role: 'Events,Fun',
         },
         {
             img: './src/assets/img/footer/header/blog_08-690x414.jpg',
             date: 'October 03, 2014',
             title: 'Fall Parents Meeting Day',
             text: 'Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum ',
-
+            num: '19',
+            name: 'Anna Brown',
+            role: 'Dance. Education',
         },
         {
             img: './src/assets/img/footer/header/blog_10-525x315.jpg',
             date: 'September 20, 2014',
             title: 'Birtday in Kindergarten',
             text: 'Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum ',
-
+            num: '22',
+            name: 'Anna Brown',
+            role: 'Games. General',
         },
 
     ],
@@ -202,7 +209,8 @@ export const store = reactive({
             firstRow: 'Fable Care Center',
             secondRow: '85 Fentiman Ave',
             thirdRow: 'Ottawa, ON K1S 0T7',
-            image: '',
+            img: './src/assets/img/contactus/envelope (1).png'
+
         },
         {
             title: 'Phone & E-mail',
@@ -210,21 +218,24 @@ export const store = reactive({
             secondRow: 'Fax: 1-800-64-39',
             thirdRow: 0,
             link: 'office@fable.com',
-            image: '',
+            img: './src/assets/img/contactus/mobile.png'
+
         },
         {
             title: 'Business Hours',
             firstRow: 'Monday - Friday',
             secondRow: '8.00 am - 5.00 pm',
             thirdRow: 'Weeknd Closed',
-            image: '',
+            img: './src/assets/img/contactus/clock.png'
+
         },
         {
             title: 'Session',
             firstRow: 'Mornings, 8 am - 12 noon',
             secondRow: 'Afternoons, 1 pm - 5 pm',
             thirdRow: 'Full Day, 8 am - 5 am ',
-            image: '',
+            img: './src/assets/img/contactus/document (1).png'
+
         },
 
     ],
