@@ -5,11 +5,11 @@ export default {
 </script>
 <template>
     <!-- enroll -->
-    <div class="enroll p-4">
-        <div class="container">
+    <div class="enroll p-4 mb-5">
+        <div class="container p-2">
             <div class="row ">
                 <div class="col-auto text">
-                    <p>How to Enroll Your Child to a Class</p>
+                    <p>How to Enroll Your Child to a Class?</p>
                 </div>
                 <div class="col-auto d-flex align-items-center">
                     <div class="btn">

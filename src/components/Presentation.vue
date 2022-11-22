@@ -7,9 +7,10 @@ export default {
 
 }
 </script>
+
 <template>
     <div class="container presentation">
-        <div class="title-info text-center">
+        <div class="title-info text-center my-4">
             <h1>Welcome to Fable</h1>
             <p>Fable Daycare,prescool, and kindergarten</p>
             <img src="../assets/img/header_divider.png" alt="">

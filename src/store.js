@@ -6,19 +6,19 @@ export const store = reactive({
 
     firstSlider: [
         {
-            img: '../assets/img/jumbotron1/slider_slide1_img1.png',
-            img2: '../assets/img/jumbotron1/slider_slide1_img2.png',
+            img: './src/assets/img/jumbotron1/slider_slide1_img1.png',
+            img2: './src/assets/img/jumbotron1/slider_slide1_img2.png',
             text: 'lorem'
         },
         {
-            img: '../assets/img/jumbotron1/slider',
-            img2: '../assets/img/jumbotron1/',
+            img: './src/assets/img/jumbotron1/slider_slide2_img1.png',
+            img2: './src/assets/img/jumbotron1/slider_slide3_img1.png',
             text: 'lorem2'
 
         },
         {
-            img: '../assets/img/jumbotron1/slider_slide_img',
-            img2: '../assets/img/jumbotron1/',
+            img: './src/assets/img/jumbotron1/slider_slide3_img2.png',
+            img2: './src/assets/img/jumbotron1/slider_slide3_img3.png',
             text: 'lorem3'
 
         },
@@ -26,28 +26,28 @@ export const store = reactive({
     ],
     infoWelcome: [
         {
-            img: './assets/img/info-welcome/schoolbag_alt.png',
+            img: 'schoolbag_alt.png',
             title: 'Morbi Etos',
             text: 'Praesent interdum est gravida vehicula est node maecenas loraeet morbi a dosis luctus novum est paesent.',
             welcome: 0,
 
         },
         {
-            img: '',
+            img: 'stroller_alt.png',
             title: 'Congue Gravida',
             text: 'Elipsis magna a terminal nulla elementum elite forte maecenas est magna etos interdum vilae est.',
             welcome: 1,
 
         },
         {
-            img: '',
+            img: 'globe_alt.png',
             title: 'Maecenas Node',
             text: 'Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis luctus novum est praesent.',
             welcome: 0,
 
         },
         {
-            img: '',
+            img: 'bell_alt.png',
             title: 'Praesent Morbi',
             text: 'Elipsis maagna a terminal nulla elementum morbi elite forte maecenas est magna etos interdum vilae est.',
             welcome: 1,

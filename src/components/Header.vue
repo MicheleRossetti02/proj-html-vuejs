@@ -16,37 +16,37 @@ export default {
         <!-- link header -->
         <!-- possibile automazziare con js -->
 
-        <div class="icon d-flex px-3 ">
+        <div class="icon d-flex px-4 ">
           <!-- icon -->
           <img src="../assets/img/image-header/home.png" alt="">
           <span class="pt-1">Home</span>
         </div>
-        <div class="icon d-flex px-3 ">
+        <div class="icon d-flex px-4 ">
           <!-- icon -->
           <img src="../assets/img/image-header/document.png" alt="">
           <span class="pt-1">Pages</span>
         </div>
-        <div class="icon d-flex px-3 ">
+        <div class="icon d-flex px-4 ">
           <!-- icon -->
           <img src="../assets/img/image-header/printer.png" alt="">
           <span class="pt-1">Blog</span>
         </div>
-        <div class="icon d-flex px-3 ">
+        <div class="icon d-flex px-4 ">
           <!-- icon -->
           <img src="../assets/img/image-header/cart.png" alt="">
           <span class="pt-1">Shop</span>
         </div>
-        <div class="icon d-flex px-3 ">
+        <div class="icon d-flex px-4 ">
           <!-- icon -->
           <img src="../assets/img/image-header/lab.png" alt="">
           <span class="pt-1">Shortcodes</span>
         </div>
-        <div class="icon d-flex px-3 ">
+        <div class="icon d-flex px-4 ">
           <!-- icon -->
           <img src="../assets/img/image-header/chat.png" alt="">
           <span class="pt-1">Support</span>
         </div>
-        <div class="icon d-flex px-3 ">
+        <div class="icon d-flex px-4 ">
           <!-- icon -->
           <img src="../assets/img/image-header/envelope.png" alt="">
           <span class="pt-1">contact</span>
@@ -90,8 +90,9 @@ export default {
   }
 
   .icon:hover {
-    background-color: orange;
+    background-color: #FD6500;
     cursor: pointer;
+    color: white;
 
   }
 }

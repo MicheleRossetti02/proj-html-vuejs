@@ -28,7 +28,7 @@ export default {
             <div class="card-info  d-flex">
                 <div :class="(infoWelcome.welcome === 0 ? 'orange my-2' : 'viola my-2')">
                     <!-- v-bind:class="infoWelcome.welcomeIndex % 2 === 0 " -->
-                    <img :src="`${infoWelcome.img}`" alt="">
+                    <img :src="`./src/assets/img/info-welcome/${infoWelcome.img}`" alt="">
                 </div>
                 <div class="text-center pt-2">
                     <h5>{{ infoWelcome.title }}</h5>
@@ -60,15 +60,23 @@ export default {
 
 .orange {
     background-color: #fe6601;
-    height: 200px;
-    width: 200px;
+
     border-radius: 50%;
 }
 
+h5 {
+    font-weight: 300;
+}
+
+
 .viola {
     background-color: #554e9e;
-    height: 200px;
-    width: 200px;
+
     border-radius: 50%;
+}
+
+img {
+    width: 100px;
+    margin: 50px;
 }
 </style>

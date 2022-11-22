@@ -48,11 +48,11 @@ export default {
         </div> 
     </div> -->
 </template>
-<style >
+<style scoped>
 .item {
     float: left;
     /* width: 300px; */
-    height: 300px;
+    height: 500px;
     position: relative;
 }
 
@@ -68,24 +68,5 @@ export default {
     bottom: 20px;
     text-align: right;
     color: black;
-}
-
-
-.prev,
-.next {
-    width: 20px;
-    height: 20px;
-    margin: 10px 0;
-    border-radius: 50%;
-    background: #ccc;
-    position: absolute;
-    left: 50%;
-    /* transform: translate(-50%); */
-    cursor: pointer;
-    /* z-index: 999; */
-}
-
-.next {
-    bottom: 0;
 }
 </style>
