@@ -99,6 +99,32 @@ export const store = reactive({
             age: '4-5',
             size: '20'
         },
+    ],
+    listClass: [
+        {
+            text: 'Comprehensive reporting on individual achivement'
+        },
+
+        {
+            text: 'Educational field trips and school presentation'
+        },
+
+        {
+            text: 'Individual attention in a small-class setting'
+        },
+
+        {
+            text: 'Learing program with after-school care'
+        },
+
+        {
+            text: 'Opportunities to carry out scientific investigations'
+        },
+
+        {
+            text: 'Positive learning environment for your child'
+        },
+
     ]
 })
 // selectImage(index) {
