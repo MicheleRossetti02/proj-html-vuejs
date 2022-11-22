@@ -48,13 +48,15 @@ export default {
             <!-- <SlidesGenerator :slide=slide v-for="slide, index in store.firstSlider" /> -->
 
             <div class="item d-flex">
-                <img :src="store.firstSlider[store.activeSlide].img" alt="" />
+
+                <img :src="`${store.firstSlider[store.activeSlide].img}`" alt="">
+                <img :src="`../assets/img/jumbotron1/`" alt="">
                 <div class="text">
                     <p>
                         {{ store.firstSlider[store.activeSlide].text }}
                     </p>
                 </div>
-                <img :src="store.firstSlider[store.activeSlide].img2" alt="">
+                <img :src="`../assets/img/jumbotron_1/${store.firstSlider[store.activeSlide].img2}`" alt="">
 
             </div>
 

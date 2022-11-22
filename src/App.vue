@@ -13,7 +13,7 @@ export default {
 
 <template>
 
-  <Header />
+  <Header> </Header>
   <MainSite />
 
 </template>

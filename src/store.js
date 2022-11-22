@@ -3,20 +3,20 @@ export default {
 
     firstSlider: [
         {
-            "img": "",
-            "img2": "",
-            "text": 'lorem'
+            img: '../assets/img/jumbotron1/slider_slide1_img1.png',
+            img2: '../assets/img/jumbotron1/slider_slide1_img2.png',
+            text: 'lorem'
         },
         {
-            "img": "",
-            "img2": "",
-            "text": 'lorem2'
+            img: '',
+            img2: '',
+            text: 'lorem2'
 
         },
         {
-            "img": "",
-            "img2": "",
-            "text": 'lorem3'
+            img: '',
+            img2: '',
+            text: 'lorem3'
 
         },
 
