@@ -175,17 +175,20 @@ export const store = reactive({
     ],
     newCard: [
         {
+            img: './src/assets/img/footer/header/blog_09-690x414.jpg',
             date: 'October 03, 2014',
             title: 'Drawing and Painting Lessons',
             text: 'Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum ',
         },
         {
+            img: './src/assets/img/footer/header/blog_08-690x414.jpg',
             date: 'October 03, 2014',
             title: 'Fall Parents Meeting Day',
             text: 'Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum ',
 
         },
         {
+            img: './src/assets/img/footer/header/blog_10-525x315.jpg',
             date: 'September 20, 2014',
             title: 'Birtday in Kindergarten',
             text: 'Magna est consectetur interdum modest dictum. Curabitur est faucibus, malesuada esttincidunt etos et mauris, nunc a libero govum est cuprum ',
