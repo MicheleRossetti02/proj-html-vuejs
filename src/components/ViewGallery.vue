@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'Enroll'
+    name: 'ViewGallery'
 }
 </script>
 <template>
@@ -9,11 +9,11 @@ export default {
         <div class="container">
             <div class="row ">
                 <div class="col-auto text">
-                    <p>How to Enroll Your Child to a Class</p>
+                    <p>See Our Kindergarten Photo Gallery!</p>
                 </div>
                 <div class="col-auto d-flex align-items-center">
                     <div class="btn">
-                        <button type="button" class="btn ">LEARN MORE ></button>
+                        <button type="button" class="btn ">VIEW GALLERY ></button>
 
                     </div>
 

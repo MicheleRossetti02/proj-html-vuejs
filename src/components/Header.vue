@@ -9,7 +9,7 @@ export default {
   <header>
     <div class="container d-flex ">
       <div class="logo">
-        <img src="../assets/img/logo.png" alt="">
+        <img src="../assets/img/logo/logo.png" alt="">
       </div>
       <div class="header link d-flex ">
 
