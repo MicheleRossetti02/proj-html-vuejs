@@ -1,9 +1,10 @@
 <script>
+import End from './End.vue';
 import FooterHeader from './FooterHeader.vue';
 
 export default {
     name: "FooterSite",
-    components: { FooterHeader }
+    components: { FooterHeader, End }
 }
 
 </script>
@@ -11,7 +12,7 @@ export default {
 <template>
 
     <FooterHeader />
-
+    <End />
 </template>
 
 <style scoped>
