@@ -17,7 +17,7 @@ export default {
     <div class="container mt-4">
         <div class="row">
             <div class="col ">
-                <div class="social mb-2  d-flex">
+                <div class="social mb-4  d-flex">
                     <div class="icon mx-1" v-for="icon in 5">
                         <img src="" alt="">
                     </div>
