@@ -55,7 +55,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style  >
 .our-class-right {
     flex-wrap: wrap;
     justify-content: space-between;

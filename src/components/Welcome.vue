@@ -22,6 +22,6 @@ export default {
 
     </Overview>
 </template>
-<style>
+<style scoped>
 
 </style>

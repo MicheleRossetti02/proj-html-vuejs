@@ -80,7 +80,8 @@ export default {
 
 
 </template>
-<style scoped>
+
+<style scoped >
 .slider-1 {
 
     position: relative;

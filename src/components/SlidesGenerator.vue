@@ -48,7 +48,7 @@ export default {
         </div> 
     </div> -->
 </template>
-<style>
+<style >
 .item {
     float: left;
     /* width: 300px; */

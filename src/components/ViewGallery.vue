@@ -22,7 +22,7 @@ export default {
         </div>
     </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 .enroll {
     background-image: url(../assets/img/pattern/pattern.png);
 
