@@ -2,6 +2,7 @@ import { reactive } from 'vue'
 export const store = reactive({
 
     activeSlide: 0,
+    overviewIndex: 0,
 
     firstSlider: [
         {
@@ -54,8 +55,6 @@ export const store = reactive({
         },
 
     ],
-    overviewIndex: 0,
-
     overviewSlider: [
         {
             img: ''
@@ -150,7 +149,31 @@ export const store = reactive({
 
         },
 
-    ]
+    ],
+    teacherCard: [
+        {
+            name: 'Ruth Richie',
+            role: 'Teacher',
+            info: 'I have just finished my studies in Early Childhood Education, and I am also the kid\'s yoga teacher here at Fable. I enjoy cooking, swimming and bike riding in my free time.',
+        },
+        {
+            name: 'Katie Wilmore',
+            role: 'Assistant Teacher',
+            info: 'My name is Katie. I grew up and studied in Canada. This is my second year at Fable and love every minute of it, making the children\'s learning experience fun.',
+        },
+        {
+            name: 'Angelica Watson',
+            role: 'Lead Teacher',
+            info: 'I hold a degree in Early Childhood Education and an advanced English language certificate. I have been working as a kindergarten teacher since 2002.',
+        },
+        {
+            name: 'Angela Lynn',
+            role: 'Teacher',
+            info: 'I have completed a graduate Diploma in Early Childhood Teaching. I have worked with children aged from six weeks to eight years.This is my second year at Fable.',
+        },
+
+    ],
+
 })
 // selectImage(index) {
 //     console.log('Ho cliccato su un thumb', index);

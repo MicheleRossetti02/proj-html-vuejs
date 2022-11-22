@@ -31,19 +31,47 @@ export default {
                     ante feugiat elit maecenas.</p>
             </div>
         </div>
+
         <div class="row">
             <!-- card teacher -->
-            <div class="col">
-                <div class="teacher">
-                    <div class="contact-teacher">
+            <div class="col-5" v-for="teacher in store.teacherCard">
 
+                <div class="teacher">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="..." class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+
+                                    <p class="card-text">{{ teacher.info }}</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row contact-teacher d-flex">
+                            <div class="col">
+                                <h5>{{ teacher.name }}</h5>
+                                <p>{{ teacher.role }}</p>
+                            </div>
+                            <div class="col">
+
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
+
             </div>
         </div>
     </div>
 </template>
 
-<style >
-
+<style scoped >
+.row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 </style>
