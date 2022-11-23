@@ -62,4 +62,8 @@ button {
 .large-text>input {
     height: 100%;
 }
+
+button:hover {
+    border: 1px solid #fe6601;
+}
 </style>

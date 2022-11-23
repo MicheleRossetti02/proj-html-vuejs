@@ -54,6 +54,10 @@ export default {
 </template>
 
 <style scoped>
+h3 {
+    color: #554e9e;
+}
+
 h4 {
     color: #554e9e;
     font-weight: 300;
@@ -62,5 +66,13 @@ h4 {
 a {
     color: #554e9e;
 
+}
+
+p {
+    opacity: 70%;
+}
+
+p:hover {
+    opacity: 100%;
 }
 </style>

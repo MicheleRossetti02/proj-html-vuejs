@@ -87,4 +87,8 @@ button {
         color: white;
     }
 }
+
+button:hover {
+    border: 1px solid #fe6601;
+}
 </style>

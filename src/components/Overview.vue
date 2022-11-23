@@ -13,7 +13,7 @@ export default {
     methods: {
         selectText(index) {
             console.log('Ho cliccato su un thumb', index);
-            this.store.activeText = index
+            this.store.overviewIndex = index
         }
 
     }
@@ -26,17 +26,14 @@ export default {
         <div class="row mb-5">
             <div class="col-5">
                 <div class="choise-overview d-flex mb-3">
-                    <div class="thumb col mt-2 mx-2" :class="store.activeSlide4 === index ? 'active' : ''"
-                        v-for="(thumb, index) in store.text" @click="selectImage(index)">
-                        <img :src="`${thumb.img}`" alt="">
-                    </div>
-                    <div class="overview button active">
-                        <button class="btn">Overview</button>
-                    </div>
-                    <div class="our-mission button">
-                        <button class="btn">Our Mission</button>
+                    <div class="thumb col-3 mt-2 mx-2" :class="store.overviewIndex === index ? 'active' : ''"
+                        v-for="(info, index) in store.textOverview" @click="selectText(index)">
+
+                        <button class="btn ">{{ info.category }}</button>
 
                     </div>
+
+
                 </div>
 
                 <div class="overview info">

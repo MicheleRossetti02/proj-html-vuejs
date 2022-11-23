@@ -4,7 +4,9 @@ export const store = reactive({
     activeSlide: 0,
     activeSlide2: 0,
     activeSlide3: 0,
+    activeSlide4: 0,
     overviewIndex: 0,
+    activeText: 0,
     gallery: [
         {
             img: './src/assets/img/gallery/gallery_01-690x506.jpg',
@@ -66,6 +68,45 @@ export const store = reactive({
         },
 
 
+    ],
+    sliderWelcome: [
+        {
+            img: './src/assets/img/jumbotron_welcome/gallery_01.jpg',
+
+
+        },
+        {
+            img: './src/assets/img/jumbotron_welcome/gallery_07-690x506.jpg',
+
+
+        },
+        {
+            img: './src/assets/img/jumbotron_welcome/gallery_08-690x506.jpg',
+
+
+        },
+
+
+
+
+    ],
+    textOverview: [
+        {
+            category: 'Overview',
+            title: 'Our phylosophy is learning throught play as we offer a stimulating environment for children',
+            options: [
+
+            ]
+
+        },
+        {
+            category: 'Our Mission',
+            title: 'Our phylosophy is learning throught play as we offer a stimulating environment for children index',
+            options: [
+
+            ]
+
+        }
     ],
     infoWelcome: [
         {
