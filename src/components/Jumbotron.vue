@@ -31,6 +31,11 @@ export default {
                 this.store.activeSlide = this.store.firstSlider.length - 1
             }
         },
+        selectImage(index) {
+            console.log('Ho cliccato su un thumb', index);
+            this.store.activeSlide = index
+        }
+
 
     }
 }
@@ -65,13 +70,12 @@ export default {
             </div>
 
 
-            <div class="thumbs">
-                <div class="prev" @click="prevSlide"></div>
-                <div class="next" @click="nextSlide"></div>
-                <!-- <div class="thumb" :class="index === index ? 'active' : ''" v-for="(thumb, index) in slides"
-            @click="selectImage(index)">
+            <div class="thumbs d-flex">
 
-        </div> -->
+                <div class="thumb py-2 px-4 mx-3 my-3" :class="store.activeSlide === index ? 'active' : ''"
+                    v-for="(thumb, index) in store.firstSlider" @click="selectImage(index)">
+
+                </div>
             </div>
 
         </div>
@@ -81,7 +85,7 @@ export default {
 
 </template>
 
-<style scoped >
+<style scoped lang="scss">
 .jumbotron {
     background-image: url(../assets/img/jumbotron1/slider_slide2_background.png);
     /* position: relative; */
@@ -89,6 +93,29 @@ export default {
     height: 600px;
     position: relative;
 }
+
+.thumbs {
+    position: absolute;
+    right: 45%;
+
+    bottom: 0;
+
+
+    .thumb {
+        width: 40px;
+        height: 10px;
+        border: 2px solid #fe6601;
+        transition: transform 1s;
+
+    }
+
+    .thumb:hover {
+        transform: translateY(-10px);
+
+    }
+}
+
+
 
 img.left {
 
@@ -131,6 +158,7 @@ img.right {
     position: absolute;
 }
 
+/* 
 .prev,
 .next {
     width: 20px;
@@ -140,12 +168,12 @@ img.right {
     background: #ccc;
     position: absolute;
     left: 50%;
-    /* transform: translate(-50%); */
+    transform: translate(-50%);
     cursor: pointer;
-    /* z-index: 999; */
+    z-index: 999;
 }
 
 .next {
     bottom: 0;
-}
+} */
 </style>

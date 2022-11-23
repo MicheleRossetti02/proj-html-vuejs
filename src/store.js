@@ -335,7 +335,3 @@ export const store = reactive({
 
     ]
 })
-// selectImage(index) {
-//     console.log('Ho cliccato su un thumb', index);
-//     this.activeSlide = index
-// }
