@@ -34,7 +34,7 @@ export default {
 
         <div class="row mb-5">
             <!-- card teacher -->
-            <div class="col-6" v-for="teacher in store.teacherCard">
+            <div class="col-6 mb-4" v-for="teacher in store.teacherCard">
 
                 <div class="teacher">
                     <div class="card mb-3">
@@ -56,12 +56,15 @@ export default {
                             </div>
                         </div>
                         <div class="row contact-teacher d-flex">
-                            <div class="col text-center mt-3">
+                            <div class="col-6 text-center mt-3">
                                 <h5>{{ teacher.name }}</h5>
                                 <p>{{ teacher.role }}</p>
                             </div>
-                            <div class="col">
+                            <div class="col d-flex right-info ">
+                                <div class="social m-1 " v-for="social in teacher.social">
+                                    <img :src="`${social}`" alt="">
 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -97,6 +100,7 @@ p:hover {
 
     .card {
         border: 0;
+        border-radius: 0;
     }
 
     .card-image {
@@ -122,6 +126,18 @@ p:hover {
 
         img {
             width: auto;
+        }
+    }
+
+    .right-info {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social {
+        img {
+            background-color: #fe6601;
+            width: 40px;
         }
     }
 
