@@ -156,4 +156,8 @@ img.right {
 .next {
     bottom: 0;
 } */
+.thumb.active {
+    border: 1px solid #fe6601;
+    background-color: #fe6601;
+}
 </style>

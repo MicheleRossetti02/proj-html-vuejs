@@ -153,7 +153,7 @@ export default {
     .thumb {
         width: 40px;
         height: 10px;
-        border: 2px solid #fe6601;
+        border: 2px solid white;
         transition: transform 1s;
 
     }
@@ -200,6 +200,11 @@ export default {
     border-radius: 50%;
     border: 1px solid white;
     // color: white;
+}
+
+.thumb.active {
+    border: 1px solid #fe6601;
+    background-color: #fe6601;
 }
 
 .utility {
