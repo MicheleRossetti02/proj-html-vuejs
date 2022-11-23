@@ -52,9 +52,10 @@ export default {
             </div>
             <div class="navigator">
                 <div class="prev" @click="prevSlide">
+                    <i class="fa-solid fa-chevron-left p-2"></i>
                 </div>
                 <div class="next" @click="nextSlide">
-
+                    <i class="fa-solid fa-chevron-right p-2"></i>
                 </div>
             </div>
 
@@ -72,6 +73,11 @@ export default {
 </template>
 
 <style scoped lang="scss">
+i {
+    color: white;
+    text-align: center;
+}
+
 .jumbotron {
     // background-image: url(../assets/img/jumbotron1/slider_slide2_background.png);
     /* position: relative; */
