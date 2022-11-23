@@ -26,10 +26,10 @@ export default {
         <div class="row mb-5">
             <div class="col-5">
                 <div class="choise-overview d-flex mb-3">
-                    <div class="thumb col-3 mt-2 mx-2" :class="store.overviewIndex === index ? 'active' : ''"
+                    <div class="thumb col-auto " :class="store.overviewIndex === index ? 'active' : ''"
                         v-for="(info, index) in store.textOverview" @click="selectText(index)">
 
-                        <button class="btn ">{{ info.category }}</button>
+                        <button class="btn px-3">{{ info.category }}</button>
 
                     </div>
 
@@ -119,6 +119,7 @@ button:hover {
 
     button {
         color: white;
+
 
     }
 }
