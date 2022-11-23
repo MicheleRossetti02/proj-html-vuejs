@@ -1,23 +1,36 @@
 <script>
 import { store } from '../store.js'
+import JumbotronWelcome from './JumbotronWelcome.vue';
 
 export default {
-    name: 'Overview',
+    name: "Overview",
     data() {
         return {
             store
+        };
+    },
+    components: { JumbotronWelcome },
+    methods: {
+        selectText(index) {
+            console.log('Ho cliccato su un thumb', index);
+            this.store.activeText = index
         }
 
-    },
+    }
+
 
 }
 </script>
 <template>
     <div class="container mt-5">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-5">
                 <div class="choise-overview d-flex mb-3">
-                    <div class="overview button">
+                    <div class="thumb col mt-2 mx-2" :class="store.activeSlide4 === index ? 'active' : ''"
+                        v-for="(thumb, index) in store.text" @click="selectImage(index)">
+                        <img :src="`${thumb.img}`" alt="">
+                    </div>
+                    <div class="overview button active">
                         <button class="btn">Overview</button>
                     </div>
                     <div class="our-mission button">
@@ -75,19 +88,17 @@ export default {
             </div>
 
             <div class="col-6">
-                <div class="slider overview">
-                    <div class="image-important">
-                        <img src="" alt="">
-                    </div>
-                    <div class="thumb">
-                        <img src="" alt="">
-                    </div>
-                </div>
+                <!-- jumbo-mini -->
+                <JumbotronWelcome />
             </div>
         </div>
     </div>
 </template>
-<style scoped>
+<style scoped lang="scss">
+.row {
+    justify-content: space-between;
+}
+
 .overview.mission {
     display: none;
 }
@@ -102,9 +113,17 @@ h5 {
 }
 
 button:hover {
-    background-color: #fe6601;
-    color: white;
+    color: #fe6601;
     border-radius: 0;
+}
+
+.active {
+    background-color: #fe6601;
+
+    button {
+        color: white;
+
+    }
 }
 
 .img {
