@@ -3,7 +3,21 @@ export const store = reactive({
 
     activeSlide: 0,
     overviewIndex: 0,
+    gallery: [
+        {
+            img: './src/assets/img/gallery/gallery_01-690x506.jpg',
+        },
+        {
+            img: './src/assets/img/gallery/gallery_02-690x506.jpg',
+        },
+        {
+            img: './src/assets/img/gallery/gallery_03-690x506.jpg',
+        },
+        {
+            img: './src/assets/img/gallery/gallery_04-690x506.jpg',
+        },
 
+    ],
     firstSlider: [
         {
             img: './src/assets/img/jumbotron1/slider_slide1_img1.png',
