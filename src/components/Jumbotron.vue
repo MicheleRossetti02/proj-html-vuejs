@@ -10,27 +10,7 @@ export default {
     },
     components: { SlidesGenerator },
     methods: {
-        nextSlide() {
-            console.log('next slide please')
-            /* TODO: fix TypeError: Cannot read properties of undefined (reading 'image') */
-            this.store.activeSlide++
 
-            if (this.store.activeSlide === this.store.firstSlider.length) {
-                this.store.activeSlide = 0
-            }
-        },
-
-
-        prevSlide() {
-            console.log('prev slide please')
-            /* TODO: fix TypeError: Cannot read properties of undefined (reading 'image') */
-            this.store.activeSlide--
-
-            // -1 < 0 
-            if (this.store.activeSlide < 0) {
-                this.store.activeSlide = this.store.firstSlider.length - 1
-            }
-        },
         selectImage(index) {
             console.log('Ho cliccato su un thumb', index);
             this.store.activeSlide = index

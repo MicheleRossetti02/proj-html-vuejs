@@ -2,6 +2,7 @@ import { reactive } from 'vue'
 export const store = reactive({
 
     activeSlide: 0,
+    activeSlide2: 0,
     overviewIndex: 0,
     gallery: [
         {
@@ -36,6 +37,19 @@ export const store = reactive({
             text: 'lorem3'
 
         },
+
+    ],
+    secondSlider: [
+        {
+            img: './src/assets/img/jumbotron2/parallax_01.jpg',
+
+        },
+        {
+            img: './src/assets/img/jumbotron2/parallax_02.jpg',
+
+
+        },
+
 
     ],
     infoWelcome: [
