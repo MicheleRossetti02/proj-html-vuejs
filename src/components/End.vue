@@ -52,17 +52,17 @@ export default {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 50px;
+        height: 30px;
         position: absolute;
-        width: 50px;
+        width: 30px;
         /* right: 0; */
-        bottom: 48px;
+        bottom: 20px;
         right: 30px;
         background-color: grey;
 
         i {
             color: white;
-            font-size: 30px;
+            // font-size: 30px;
 
         }
 
