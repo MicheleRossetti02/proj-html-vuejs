@@ -30,7 +30,8 @@ export default {
 
                 </div>
                 <div class="link">
-                    <a class="py-3" href="#"> &uparrow;</a>
+
+                    <i class="fa-solid fa-chevron-up"></i>
                 </div>
             </div>
         </div>
@@ -57,12 +58,12 @@ export default {
         /* right: 0; */
         bottom: 48px;
         right: 30px;
-        background-color: antiquewhite;
+        background-color: grey;
 
-        a {
-            color: black;
+        i {
+            color: white;
             font-size: 30px;
-            opacity: 30%;
+
         }
 
     }
