@@ -61,7 +61,7 @@ export default {
         </div>
     </div>
     <div class="thumbs d-flex">
-        <div class="thumb col mt-2 mx-2" :class="store.activeSlide4 === index ? 'active' : ''"
+        <div class="thumb col mt-2 mx-1" :class="store.activeSlide4 === index ? 'active' : ''"
             v-for="(thumb, index) in store.sliderWelcome" @click="selectImage(index)">
             <img :src="`${thumb.img}`" alt="">
         </div>
