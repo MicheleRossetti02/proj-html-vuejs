@@ -91,4 +91,15 @@ button {
 button:hover {
     border: 1px solid #fe6601;
 }
+
+p {
+
+    // color: #474545;
+    opacity: 60%;
+    color: black;
+}
+
+p:hover {
+    opacity: 100%;
+}
 </style>

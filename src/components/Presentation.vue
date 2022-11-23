@@ -20,7 +20,7 @@ export default {
     </div>
 
 </template>
-<style lang="scss" >
+<style lang="scss"  >
 // @use 'variables' as *;
 
 .presentation {
@@ -31,8 +31,14 @@ export default {
     }
 
     p {
-        font-weight: 100;
-        color: #474545;
+        font-weight: 200;
+        // color: #474545;
+        opacity: 60%;
+        color: black;
+    }
+
+    p:hover {
+        opacity: 100%;
     }
 }
 </style>

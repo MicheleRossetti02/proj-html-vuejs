@@ -30,7 +30,7 @@ export default {
                     <!-- v-bind:class="infoWelcome.welcomeIndex % 2 === 0 " -->
                     <img :src="`./src/assets/img/info-welcome/${infoWelcome.img}`" alt="">
                 </div>
-                <div class="text-center pt-2">
+                <div class="text-center pt-2 ">
                     <h5>{{ infoWelcome.title }}</h5>
                     <p>{{ infoWelcome.text }}</p>
                 </div>

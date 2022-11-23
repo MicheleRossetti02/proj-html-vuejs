@@ -138,4 +138,15 @@ img {
     bottom: 33px;
     width: 40px;
 }
+
+p {
+    font-weight: 200;
+    // color: #474545;
+    opacity: 60%;
+    color: black;
+}
+
+p:hover {
+    opacity: 100%;
+}
 </style>

@@ -27,10 +27,10 @@ export default {
             </h2>
         </div>
         <div class="col-6 ps-3">
-            <p> <small class="text-muted ms-2">Praesent arcu gravida vehicula est node maecenas loareet morbi a dosis
-                    luctus. Urna eget lacinia
-                    eleifend praesent luctus a arcu quis facilisis venenatis. Aenean interdum, nibh vitae sodales, magna
-                    ante feugiat elit maecenas.</small></p>
+            <p> Praesent arcu gravida vehicula est node maecenas loareet morbi a dosis
+                luctus. Urna eget lacinia
+                eleifend praesent luctus a arcu quis facilisis venenatis. Aenean interdum, nibh vitae sodales, magna
+                ante feugiat elit maecenas.</p>
 
 
         </div>
@@ -88,7 +88,15 @@ h2 {
     }
 
     p {
+        font-weight: 200;
+        // color: #474545;
+        opacity: 60%;
+        color: black;
         font-size: 19px;
+    }
+
+    p:hover {
+        opacity: 100%;
     }
 }
 
